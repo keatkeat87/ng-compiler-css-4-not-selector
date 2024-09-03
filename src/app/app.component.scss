@@ -1,12 +1,12 @@
 
-
+/* it is not work! */
 ::ng-deep input:not(:checked, :focus) ~ p {
   background-color: red;
   color: white;
 }
 
+/* it work! */
 /*
-
 ::ng-deep input:not(:checked):not(:focus) ~ p {
   background-color: red;
   color: white;
